@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* HERO */
+.title{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(messi-b-6.jpg);
+    background-position: center;
+    background-size:cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 72px;
+    color: white;
+}
+
+.title p{
+    font-size: 36px;
+    color: white;
+}
+
+/* Text */
+.content{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.content .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+}
+
+#intro{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.content .box .img {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .box .img img{
+    max-width: 70vw;
+    padding: 10px;
+}
+
+.content .box .img img p{
+    font-size: 1.2em;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+
+.box2 p{
+    text-align: left;
+    padding-top: 40px;
+    font-size: 1.3em;
+}
+
+/* footer */
+#footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background:#242871;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer p a{
+    color: #5c8fe0;
+}
